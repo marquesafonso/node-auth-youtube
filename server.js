@@ -4,8 +4,10 @@ const mongoose = require('mongoose')
 const User = require('./model/user')
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
+const dotenv = require('dotenv')
 
-const JWT_SECRET = 'sdjkfh8923yhjdksbfma@#*(&@*!^#&@bhjb2qiuhesdbhjdsfg839ujkdhfjk'
+dotenv.config()
+const JWT_SECRET = process.env.JWT_SECRET
 
 mongoose.connect('mongodb://localhost:27017/first_db', {
 	useNewUrlParser: true,
