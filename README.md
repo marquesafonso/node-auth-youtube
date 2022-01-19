@@ -8,4 +8,4 @@ database.
 
 The pictures below depict a sketch the final working example:
 
-<img src="registration.png" width="400" height="400" hspace="1cm"/> <img src="users_db.png" width="515" height="400"/> 
+<img src="registration.png" width="400" height="250" hspace="1cm"/> <img src="users_db.png" width="515" height="350"/> 
